@@ -3,7 +3,7 @@ frontend:
   links:
     - backend
 backend:
-  command: "/src/run.sh"
+  command: "/bin/bash /src/run.sh"
   build: ./backend
   ports:
     - "8000:8000"
