@@ -6,7 +6,7 @@
 Install npm dependencies:
 
 ```bash
-$ cd projectDir
+$ npm i gulp -g
 $ npm install
 ```
 
