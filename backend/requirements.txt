@@ -1,0 +1,5 @@
+falcon
+mongoengine
+gunicorn
+python-slugify
+falcon-cors

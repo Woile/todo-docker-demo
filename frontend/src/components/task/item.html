@@ -1,0 +1,21 @@
+
+<span id="btn-check" class="fa-stack fa-lg">
+  <i class="fa fa-circle-thin fa-stack-2x"></i>
+  <% if (is_done) { %>
+    <i class="fa fa-check fa-stack-1x text-success"></i>
+  <% } %>
+
+</span>
+
+<span>
+  <% if (is_done) { %>
+  <s class="text-muted"><i>
+  <% } %>
+    <%= content %>
+  <% if (is_done) { %>
+  </i></s>
+  <% } %>
+
+</span>
+
+<i id="btn-delete" class="btn fa fa-trash pull-right fa-2x" aria-hidden="true"></i>

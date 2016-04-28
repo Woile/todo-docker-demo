@@ -1,0 +1,18 @@
+frontend:
+  build: ./frontend
+  links:
+    - backend
+backend:
+  command: "/src/run.sh"
+  build: ./backend
+  ports:
+    - "8000:8000"
+  volumes:
+    - ./backend:/src
+  environment:
+    MONGO_HOST: mongo
+    MONGO_PORT: 27017
+  links:
+    - mongo
+mongo:
+  image: mongo
