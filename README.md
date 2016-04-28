@@ -5,8 +5,6 @@ this could be deployed with no inconvinience, though it has not been tested.
 
 ## Containers used
 
-* Backend (Falcon Python)
-* Frontend (Marionette JS)
-* Nginx
-* Mongo
-* Celery
+* Guniucorn Backend (Falcon Python)
+* Nginx Frontend (Marionette JS)
+* MongoDB
