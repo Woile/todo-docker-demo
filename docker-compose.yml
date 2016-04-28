@@ -1,5 +1,7 @@
 frontend:
   build: ./frontend
+  ports:
+    - "80:80"
   links:
     - backend
 backend:
