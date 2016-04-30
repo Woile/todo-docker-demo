@@ -117,6 +117,19 @@ var LayoutView = Mn.View.extend({
 
   },
 
+  ui: {
+    addTodo: '#add-todo'
+  },
+
+  events: {
+    'click @ui.addTodo': '_onNewToDo'
+  },
+
+  _onNewToDo: function (evt) {
+    evt.preventDefault();
+    this._todos.add({});
+  },
+
   onRender: function () {
     this.showChildView('todos', new CollectionView({
       collection: this._todos

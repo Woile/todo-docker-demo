@@ -10,7 +10,8 @@ var Model = Backbone.Model.extend({
   defaults: {
     collapse: '',
     title: '',
-    slug: ''
+    slug: '',
+    tasks: []
   },
 
   parse: function (r) {

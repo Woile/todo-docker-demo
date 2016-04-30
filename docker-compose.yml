@@ -4,6 +4,9 @@ frontend:
     - "80:80"
   links:
     - backend
+  volumes:
+    - ./frontend/dist:/var/www/dist
+    - ./frontend/index.html:/var/www/index.html
 backend:
   command: "/bin/bash /src/run.sh"
   build: ./backend
