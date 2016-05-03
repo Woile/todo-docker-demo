@@ -17,11 +17,11 @@ this could be deployed with no inconvinience, though it has not been tested.
 Visit [docker web](https://docs.docker.com/linux/) for steps on how to install it in your OS.
 
 ### Clone this repo
-`git clone https://github.com/Woile/todo-docker-demo.git`
+    git clone https://github.com/Woile/todo-docker-demo.git
 
 ### Build images
-`docker-compose build`
+    docker-compose build
 
 ### Start containers
-`docker-compose start`
-`docker-compose logs`
+    docker-compose start
+    docker-compose logs
