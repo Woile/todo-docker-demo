@@ -19,9 +19,6 @@ Visit [docker web](https://docs.docker.com/linux/) for steps on how to install i
 ### Clone this repo
     git clone https://github.com/Woile/todo-docker-demo.git
 
-### Build frontend
-Go to the frontend [README](./frontend/README.md) and build the resources.
-
 ### Build images
     docker-compose build
 
