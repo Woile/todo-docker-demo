@@ -83,7 +83,13 @@ class BaseResource:
 
 
 class ToDoResource(BaseResource):
-    """Handles a single todo resource."""
+    """Handles everything related to TODOS.
+    
+    list
+    create
+    retrieve
+    delete
+    """
 
     model = ToDo
 
