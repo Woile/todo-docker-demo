@@ -5,6 +5,7 @@ frontend:
   links:
     - backend
   volumes:
+    - ./frontend:/usr/src
     - ./frontend/dist:/var/www/dist
     - ./frontend/index.html:/var/www/index.html
 backend:
